@@ -1,0 +1,110 @@
+/* ===========================================================================
+  Presets & Variables
+  ========================================================================== */
+  @import "_variables";
+  @import "_mixins";
+
+/* ===========================================================================
+  Gists
+  ========================================================================== */
+  .gist {
+    @include font-size(13);
+    margin-bottom: 2em;
+    width: 100%;
+    pre {
+      font-family: Menlo,Monaco,'Bitstream Vera Sans Mono','Courier New',monospace !important;
+    }
+  }
+  .gist-meta {
+    font-family: Helvetica,Arial,sans-serif;
+    @include font-size(13);
+    a {
+      color:#26a !important;
+      text-decoration:none;
+      &:hover {
+        color:#0e4071 !important;
+      }
+    }
+  }
+
+  .output-link {
+    position: relative;
+    top: -2.6em;
+    float: right;
+  }
+/* end */
+
+/* ===========================================================================
+  Download Button
+  ========================================================================== */
+  .download-wrap {
+    margin: 2em auto;
+    width: auto;
+    height: auto;
+    text-align: center;
+    p.count {
+      margin-top: .5em;
+      @include font-size(10,10);
+      color: $white;
+    }
+  }
+
+  .demo-download {
+    display: block;
+    clear: both;
+    margin: 2em auto;
+    height: auto;
+    width: 12.5em;
+    text-align: center;
+    .download-wrap {
+      margin: 1px 0 0 0;
+      float: left;
+    }
+    a.demo, a.download {
+      display: inline-block;
+      float: left;
+      padding: 1.4em 2em;
+      width: 12.5em;
+      @include font-size(14, 14);
+      font-weight: 600;
+      color: $white;
+      text-decoration: none;
+      background: $squar3d;
+      @include border-radius(6px 6px 0px 0px);
+      &:hover {
+        background: darken($squar3d, 20%);
+      }
+    }
+    a.button {
+      width: 12.5em;
+      @include border-radius(0px 0px 6px 6px);
+    }
+  }
+/* end */
+
+/*  Contact Form 7
+  ========================================================================== */
+  .wpcf7-form-control-wrap {
+    label {
+      display: block;
+      span {
+        @include font-size(11,11);
+        color: $red;
+      }
+    }
+  }
+
+  input.wpcf7-submit {
+    padding: 1.4em 2em;
+    border: none;
+    color: $white;
+    background: $squar3d;
+    @include border-radius(.6em);
+    @include font-size(14, 14);
+    font-weight: 600;
+    &:hover {
+      background: darken($squar3d, 20%);
+    }
+
+  }
+/* end */

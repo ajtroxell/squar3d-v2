@@ -1,0 +1,126 @@
+// ----- CHILD THEME COLORS ----- //
+@import "../colors";
+
+/* ===========================================================================
+  Color Overrides Desktop
+  ========================================================================== */
+
+  input[type=submit],input[type=button],button[type=submit] {
+    background: $magenta;
+  }
+
+  input[type=submit]:hover,input[type=button]:hover,button[type=submit]:hover {
+    background: darken($magenta, 20%);
+  }
+
+  a {
+    color: $magenta;
+  }
+
+  a:visited {
+    color: darken($magenta, 20%);
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: darken($magenta, 20%);
+    text-decoration: underline;
+  }
+
+  a.button {
+    background: $magenta;
+  }
+
+  a.button:hover {
+    background: darken($magenta, 20%);
+  }
+
+  p.thanks {
+    color: $magenta;
+  }
+
+  nav#primary-nav ul li a:hover, nav#primary-nav ul li.current_page_item>a,nav#primary-nav ul li.current-menu-item>a,nav#primary-nav ul li.parent.open>a,nav#primary-nav ul li.current-menu-ancestor>a, nav#primary-nav ul li ul {
+    background: $magenta;
+  }
+
+  nav#primary-nav ul li ul li a:hover, nav#primary-nav ul li ul li.current_page_item>a,nav#primary-nav ul li ul li.current-menu-item>a,nav#primary-nav ul li ul li.parent.open>a,nav#primary-nav ul li ul li.current-menu-ancestor>a, nav#primary-nav ul li ul li.current_page_item>a:hover,nav#primary-nav ul li ul li.current-menu-item>a:hover,nav#primary-nav ul li ul li.parent.open>a:hover,nav#primary-nav ul li ul li.current-menu-ancestor>a:hover {
+    background: darken($magenta, 20%);
+  }
+
+  .wrap-content {
+    border-top: 6px solid $magenta;
+    border-bottom: 6px solid $magenta;
+  }
+
+  #hamburger:hover {
+    color: darken($magenta, 20%);
+    text-decoration: none;
+  }
+
+  .search-form button[type=submit]:hover, article header h1 a:hover,article header h2 a:hover, article .meta a:hover {
+    color: $magenta;
+  }
+
+  article blockquote {
+    border-left: 6px solid $magenta;
+  }
+
+  .post-page-nav a:hover, .slider h2 a:hover, .wp-pagenavi a:hover {
+    color: $magenta;
+  }
+
+  ol.commentlist li div.comment-meta .reply a {
+    background: $magenta;
+  }
+
+  ol.commentlist li div.comment-meta .reply a:hover {
+    background: darken($magenta, 20%);
+  }
+
+  .sidebar ul li.cat-item a:hover, nav.secondary-nav ul li a {
+    color: $magenta;
+  }
+
+  ul.metro li a:hover {
+    color: darken($magenta, 20%);
+  }
+
+  nav.secondary-nav ul li a:hover {
+    color: darken($magenta, 20%);
+  }
+
+  .post header > h1:before, .post header > h2:before {
+    color: $magenta;
+  }
+
+/* ===========================================================================
+  Responsive
+  ========================================================================== */
+  @media only screen and (max-width: 767px) {
+
+    .header-wrap, header.primary #primary-nav {
+      background: $magenta;
+
+      ul li a:hover {
+        background: darken($magenta, 10%);
+      }
+
+      ul li {
+        &.current_page_item, &.current-menu-item, &.parent.open, &.current-menu-ancestor {
+          > a {
+            background: darken($magenta, 10%);
+          }
+        }
+      }
+
+      ul li ul li {
+        &.current_page_item, &.current-menu-item, &.parent.open, &.current-menu-ancestor {
+          > a {
+            background: darken($magenta, 10%);
+          }
+        }
+      }
+      
+    }
+
+  }

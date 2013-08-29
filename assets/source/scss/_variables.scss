@@ -1,0 +1,26 @@
+// ----- COLORS ----- //
+$white: #fff;
+$black: #000;
+
+$base: #423F37;
+$tan: #e2ded6;
+$red: #dc5353;
+
+$social-button-border: #ddd;
+$social-button-top: #f7f7f7;
+$social-button-bottom: #efefef;
+$social-button-bottom-active: #eee;
+
+$code-border: #ddd;
+$code-background: #f8f8ff;
+
+// ----- FONTS ----- //
+$sans-serif: 'Ubuntu', Corbel, Arial, Helvetica, "Nimbus Sans L", "Liberation Sans", sans-serif;
+$sans-serif-condensed: "HelveticaNeueCondensed", "HelveticaNeue-Condensed", "Helvetica Neue Condensed", "HelveticaNeueRomanCondensed", "HelveticaNeue-Roman-Condensed", "Helvetica Neue Roman Condensed", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", 'TeXGyreHerosCnRegular', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif;
+$serif: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+
+// ----- IMAGES ----- //
+$imgPath: '/wp-content/themes/squar3d-v2/assets/css/images';
+
+// ----- CHILD THEME COLORS ----- //
+@import "_colors";

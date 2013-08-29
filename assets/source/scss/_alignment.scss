@@ -1,0 +1,52 @@
+/*  Alignment
+	========================================================================== */
+
+	img.alignleft {
+		margin: 0em 1em .3em 0em;
+		float: left;
+	}
+
+	.alignleft {
+		float: left;
+	}
+
+	img.alignright {
+		margin: 0em 0em .3em 1em;
+		float: right;
+	}
+
+	.alignright {
+		float: right;
+	}
+
+	img.aligncenter {
+		margin: 0em auto .3em auto;
+	}
+	
+	.aligncenter {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.text-left {
+		text-align: left;
+	}
+
+	.text-center {
+		text-align: center;
+	}
+
+	.text-right {
+		text-align: right;
+	}
+
+	.clear {
+		display: block;
+		clear: both;
+		&.aside {
+			display: block;
+			height: 3em;
+			clear: both;
+		}
+	}
