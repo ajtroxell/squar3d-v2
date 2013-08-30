@@ -17,13 +17,13 @@
   </title>
 
   <!-- Included CSS Files (Compressed) -->
-  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css">
-  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/master.css">
-  <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/user.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/master.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/user.css">
 
   <!-- Color Schemes -->
-  <?php $options = get_option('squar3d_theme_options'); if (($options['schemeinput'] == 'default')) { echo ""; } elseif (($options['schemeinput'] == 'none')) { echo ""; } else { echo "<link rel='stylesheet' href='".get_stylesheet_directory_uri()."/assets/css/color-schemes/".$options['schemeinput'].".css'>"; } ?>
-  <?php $options = get_option('squar3d_theme_options'); if ($options['custom-stylesheet']) { echo "<link rel='stylesheet' href='".get_stylesheet_directory_uri()."/".$options['custom-stylesheet'].".css'>"; } ?>
+  <?php $options = get_option('squar3d_theme_options'); if (($options['schemeinput'] == 'default')) { echo ""; } elseif (($options['schemeinput'] == 'none')) { echo ""; } else { echo "<link rel='stylesheet' href='".get_template_directory_uri()."/assets/css/color-schemes/".$options['schemeinput'].".css'>"; } ?>
+  <?php $options = get_option('squar3d_theme_options'); if ($options['custom-stylesheet']) { echo "<link rel='stylesheet' href='".get_template_directory_uri()."/".$options['custom-stylesheet'].".css'>"; } ?>
   <?php $options = get_option('squar3d_theme_options'); if ($options['css_override']) { echo "<style type='text/css'>".$options['css_override']."</style>"; } ?>
 
   <!-- Google Font -->

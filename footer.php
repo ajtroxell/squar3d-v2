@@ -24,7 +24,7 @@
   </div>
 
 <!-- Included JS Files -->
-<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/master-ck.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/master-ck.js"></script>
 
 <!-- Wordpress Footer -->
 <?php wp_footer(); ?>

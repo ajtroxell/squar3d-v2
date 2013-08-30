@@ -1,5 +1,13 @@
 <?php
 /*
+ * Add theme update checking
+ */
+	require 'theme-updates/theme-update-checker.php';
+	$example_update_checker = new ThemeUpdateChecker(
+	    'squar3d-v2',
+	    'http://labs.ajtroxell.com/themes/squar3d-v2/info.json'
+	);
+/*
  * Add theme options
  */
 	require_once (TEMPLATEPATH .'/functions/theme-options.php');
