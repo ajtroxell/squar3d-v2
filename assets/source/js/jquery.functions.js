@@ -44,20 +44,20 @@ jQuery(function ($) {
         
 		//ADD MAGNIFIC POPUP TO IMAGE LINKS AND GALLERIES
 		$(document).ready(function() {
-			//does the image have a parent element with a gallery class?
-			if ( $('a[href*=".jpg"], a[href*=".jpeg"], a[href*=".png"], a[href*=".gif"]').parents('.gallery').length === 1 ) {
-				//if yes, then is must be a gallery image and we should enable the gallery feature
-				$('.gallery').magnificPopup({
+			$('a[href*=".jpg"], a[href*=".jpeg"], a[href*=".png"], a[href*=".gif"]').each(function(){
+				//single image popup
+				if ($(this).parents('.gallery').length === 0) {
+					$(this).magnificPopup({type:'image'});
+				}
+			});
+			//gallery popup
+			$('.gallery').each(function() {
+				$(this).magnificPopup({
 					delegate: 'a',
 					type: 'image',
-					gallery: {
-						enabled: true
-					}
+					gallery: {enabled:true}
 				});
-			} else {
-				//if no, then it must be a single image and should have a popup added to it
-				$('a[href*=".jpg"], a[href*=".jpeg"], a[href*=".png"], a[href*=".gif"]').magnificPopup({type:'image'});
-			}
+			});
 		});
 
 		// LOAD DROPDOWN FOR SECONDARY NAV IN FOOTER ON MOBILE DEVICES

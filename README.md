@@ -53,6 +53,9 @@ If you have never installed a custom WordPress theme before, check out [Using Th
 <a href="http://ajtroxell.com/wp-content/uploads/2013/08/01.jpg" style="float:left;" target="new"><img src="http://ajtroxell.com/wp-content/uploads/2013/08/12.jpg" title="Sidebar stacking on mobile" style="width:150px;height:auto;"/>
 
 ##Changelog
+###1.1.3
+*	Further improvement made to Magnific Popup intialization via jQuery
+
 ###1.1.2
 *	Updated README.md features list
 *	Updated Magnific Popup to use jQuery to initialize images and galleries

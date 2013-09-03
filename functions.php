@@ -3,7 +3,7 @@
  * Add theme update checking
  */
 	require 'theme-updates/theme-update-checker.php';
-	$example_update_checker = new ThemeUpdateChecker(
+	$squared_v2_update_checker = new ThemeUpdateChecker(
 	    'squar3d-v2',
 	    'http://labs.ajtroxell.com/themes/squar3d-v2/info.json'
 	);
