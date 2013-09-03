@@ -41,27 +41,22 @@ jQuery(function ($) {
 			);
 		});
 
-		//SOCIAL SHARE
-		$('.newWindow').click(function (event){
-			var windowSizeArray = [ "width=500,height=400", "width=500,height=400", "width=500,height=400", "width=500,height=400", "width=850,height=705" ];
-            var url = $(this).attr("href");
-            var windowName = $(this).attr("name");
-            var windowSize = windowSizeArray[ $(this).attr("rel") ];
-            window.open(url, windowName, windowSize);
-            event.preventDefault();
-        });
-
-        //ADD MAGNIFIC POPUP TO IMAGE LINKS
+        
+		//ADD MAGNIFIC POPUP TO IMAGE LINKS AND GALLERIES
 		$(document).ready(function() {
-			$('.pop').magnificPopup({type:'image'});
-		});
-
-		//ADD MAGNIFIC POPUP TO GALLERIES
-		$('.gallery').magnificPopup({
-			delegate: 'a',
-			type: 'image',
-			gallery: {
-				enabled: true
+			//does the image have a parent element with a gallery class?
+			if ( $('a[href*=".jpg"], a[href*=".jpeg"], a[href*=".png"], a[href*=".gif"]').parents('.gallery').length === 1 ) {
+				//if yes, then is must be a gallery image and we should enable the gallery feature
+				$('.gallery').magnificPopup({
+					delegate: 'a',
+					type: 'image',
+					gallery: {
+						enabled: true
+					}
+				});
+			} else {
+				//if no, then it must be a single image and should have a popup added to it
+				$('a[href*=".jpg"], a[href*=".jpeg"], a[href*=".png"], a[href*=".gif"]').magnificPopup({type:'image'});
 			}
 		});
 

@@ -6,11 +6,11 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/cobalt.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/cobalt.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/cobalt.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -22,7 +22,7 @@
       "inputAbbreviatedPath" : "\/screenshot.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/screenshot.png",
-      "initialSize" : 158834,
+      "initialSize" : 79351,
       "fileType" : 8192
     },
     "\/sidebar.php" : {
@@ -51,15 +51,6 @@
       "inputAbbreviatedPath" : "\/functions\/css\/squar3d.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
-    },
-    "\/functions-user.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/functions-user.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/404.php" : {
       "ignoreWasSetByUser" : 0,
@@ -135,7 +126,7 @@
       "inputAbbreviatedPath" : "\/assets\/css\/images\/logo.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/assets\/css\/images\/logo.png",
-      "initialSize" : 6710,
+      "initialSize" : 6221,
       "fileType" : 8192
     },
     "\/assets\/source\/js\/jquery.functions.js" : {
@@ -214,11 +205,11 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/steel.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/steel.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/steel.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -226,23 +217,11 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/yellow.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/yellow.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/assets\/source\/scss\/user.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/assets\/source\/scss\/user.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/user.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/yellow.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -250,11 +229,11 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/orange.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/orange.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/orange.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -283,11 +262,11 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/red.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/red.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/red.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -313,32 +292,23 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/teal.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/teal.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/teal.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/contact.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/contact.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/assets\/source\/scss\/color-schemes\/olive.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/olive.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/olive.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/olive.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -362,15 +332,6 @@
       "inputAbbreviatedPath" : "\/searchform.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/user.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/user.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/assets\/css\/color-schemes\/orange.css" : {
       "ignoreWasSetByUser" : 0,
@@ -406,11 +367,11 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/brown.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/brown.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/brown.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -448,11 +409,11 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/magenta.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/magenta.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/magenta.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -460,11 +421,11 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/taupe.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/taupe.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/taupe.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -476,39 +437,39 @@
       "inputAbbreviatedPath" : "\/assets\/css\/images\/apple-touch-icon-114-precomposed.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/assets\/css\/images\/apple-touch-icon-114-precomposed.png",
-      "initialSize" : 1270,
+      "initialSize" : 2976,
       "fileType" : 8192
-    },
-    "\/demo.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/demo.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/assets\/source\/scss\/color-schemes\/emerald.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/emerald.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/emerald.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/emerald.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/theme-updates\/theme-update-checker.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/theme-updates\/theme-update-checker.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/assets\/source\/scss\/color-schemes\/sienna.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/sienna.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/sienna.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/sienna.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -520,7 +481,7 @@
       "inputAbbreviatedPath" : "\/assets\/css\/images\/apple-touch-icon-72-precomposed.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/assets\/css\/images\/apple-touch-icon-72-precomposed.png",
-      "initialSize" : 845,
+      "initialSize" : 2896,
       "fileType" : 8192
     },
     "\/assets\/css\/color-schemes\/yellow.css" : {
@@ -536,11 +497,11 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/lime.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/lime.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/lime.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -550,15 +511,6 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/functions\/css\/wp-metro.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/assets\/css\/color-schemes\/lime.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/color-schemes\/lime.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
@@ -574,6 +526,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/assets\/css\/color-schemes\/lime.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/color-schemes\/lime.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/assets\/css\/images\/apple-touch-icon-57-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -582,7 +543,7 @@
       "inputAbbreviatedPath" : "\/assets\/css\/images\/apple-touch-icon-57-precomposed.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/assets\/css\/images\/apple-touch-icon-57-precomposed.png",
-      "initialSize" : 700,
+      "initialSize" : 2863,
       "fileType" : 8192
     },
     "\/assets\/source\/scss\/_colors.scss" : {
@@ -628,11 +589,11 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/mauve.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/mauve.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/mauve.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -660,11 +621,11 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/pink.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/pink.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/pink.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -682,7 +643,7 @@
     },
     "\/header.php" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/header.php",
@@ -702,11 +663,11 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/violet.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/violet.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/violet.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -750,11 +711,11 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/amber.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/amber.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/amber.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -796,7 +757,7 @@
       "inputAbbreviatedPath" : "\/assets\/css\/images\/apple-touch-icon-144-precomposed.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/assets\/css\/images\/apple-touch-icon-144-precomposed.png",
-      "initialSize" : 1638,
+      "initialSize" : 3056,
       "fileType" : 8192
     },
     "\/functions.php" : {
@@ -816,7 +777,7 @@
       "inputAbbreviatedPath" : "\/assets\/css\/images\/favicon.png",
       "processed" : 0,
       "outputAbbreviatedPath" : "\/assets\/css\/images\/favicon.png",
-      "initialSize" : 312,
+      "initialSize" : 2809,
       "fileType" : 8192
     },
     "\/single.php" : {
@@ -907,30 +868,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/assets\/source\/scss\/color-schemes\/crimson.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/crimson.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/crimson.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/assets\/source\/scss\/color-schemes\/indigo.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/indigo.scss",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/indigo.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/assets\/css\/color-schemes\/teal.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -940,15 +877,27 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/assets\/source\/scss\/color-schemes\/cyan.scss" : {
+    "\/assets\/source\/scss\/color-schemes\/indigo.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/cyan.scss",
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/indigo.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/cyan.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/indigo.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/source\/scss\/color-schemes\/crimson.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/crimson.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/crimson.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -956,11 +905,23 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/green.scss",
       "outputStyle" : 3,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/source\/scss\/css\/green.css",
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/green.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/assets\/source\/scss\/color-schemes\/cyan.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/assets\/source\/scss\/color-schemes\/cyan.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/color-schemes\/cyan.css",
       "fileType" : 4,
       "debugStyle" : 0
     }
