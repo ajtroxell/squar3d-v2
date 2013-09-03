@@ -12,10 +12,6 @@
  */
 	require_once (TEMPLATEPATH .'/functions/theme-options.php');
 /*
- * Include user functions
- */
-	require_once (TEMPLATEPATH .'/functions-user.php');
-/*
  * Remove header junk
  */
 	remove_action('wp_head', 'rsd_link');
